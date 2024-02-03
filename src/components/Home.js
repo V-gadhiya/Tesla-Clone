@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import Section from "./Section";
-import { Fade } from 'react-reveal';
 
 const Home = () => {
   return (
-    <Fade>
+    <Container>
       <Section
         title="Model S"
         description="Order Online For Touchless Delivery"
@@ -54,7 +53,7 @@ const Home = () => {
         bgImg="accessories"
         leftBtnText="shop now"
       />
-    </Fade>
+    </Container>
   );
 };
 
